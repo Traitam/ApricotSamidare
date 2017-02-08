@@ -1,4 +1,4 @@
 # ApricotSamidare
 Apricotmodel to samidare.
 
-*** Apricotƒ‚ƒfƒ‹‚ÌŒÜŒ‰J‚¿‚á‚ñ
+*** Apricotãƒ¢ãƒ‡ãƒ«ã®äº”æœˆé›¨ã¡ã‚ƒã‚“
