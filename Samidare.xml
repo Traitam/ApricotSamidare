@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<script>
+  <character name="五月雨" origin-x="20" origin-y="18" x="0" y="0" width="450" height="650">
+    <sequence name="Samidare.NOP">
+      <!--数値記憶用-->
+      <motion fps="30" z-index="-1">
+        <image x="0" y="0" opacity="0" />
+      </motion>
+    </sequence>
+    <sequence name="Samidare.Neutralize">
+      <motion fps="30" z-index="0">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+      </motion>
+      <motion fps="30" z-index="1">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+      </motion>
+      <motion fps="30" z-index="2">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+      </motion>
+      <motion fps="30" z-index="3">
+       <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+      </motion>
+      <motion fps="30" z-index="4">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+      </motion>
+      <motion fps="30" z-index="5">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu.png</image>
+      </motion>
+      <motion fps="30" z-index="6">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+      </motion>
+    </sequence>
+    
+    <sequence name="Samidare.Say">
+      <motion fps="30" z-index="5">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu.png</image>
+      </motion>
+      <motion fps="30" z-index="6" iterations="4">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+      </motion>
+    </sequence>
+    <sequence name="Samidare.SayNega">
+      <motion fps="30" z-index="5">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+      </motion>
+      <motion fps="30" z-index="6" iterations="4">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+      </motion>
+    </sequence>
+
+    <sequence name="Samidare.ArmSwing">
+      <motion fps="30" z-index="1" iterations="2">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+      </motion>
+      <motion fps="30" z-index="4" iterations="2">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm04.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm03.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm02.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+      </motion>
+    </sequence>
+    <sequence name="Samidare.Blink">
+      <motion fps="20" z-index="3" iterations="2">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_eye.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+      </motion>
+    </sequence>
+    <sequence name="Samidare.Shake">
+      <motion fps ="20" z-index="0" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+      </motion>
+      <motion fps ="20" z-index="1" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+      </motion>
+      <motion fps="20" z-index="2" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+      </motion>
+      <motion fps="20" z-index="3" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+      </motion>
+      <motion fps="20" z-index="4" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+      </motion>
+      <motion fps="20" z-index="5" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu_negative.png</image>
+      </motion>
+      <motion fps="20" z-index="6" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="-10" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="10" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse_nega.png</image>
+      </motion>
+
+    </sequence>
+    <sequence name="Samidare.Bounce">
+      <motion fps ="20" z-index="0" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_back_hair.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_back_hair.png</image>
+      </motion>
+      <motion fps ="20" z-index="1" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_r_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_r_arm.png</image>
+      </motion>
+      <motion fps="20" z-index="2" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_base.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_base.png</image>
+      </motion>
+      <motion fps="20" z-index="3" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_open_eye.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_open_eye.png</image>
+      </motion>
+      <motion fps="20" z-index="4" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_l_arm.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_l_arm.png</image>
+      </motion>
+      <motion fps="20" z-index="5" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_mayu.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_mayu.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_mayu.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_mayu.png</image>
+      </motion>
+      <motion fps="20" z-index="6" iterations="3">
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="-20" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="-10" width="450" height="650">Images\Samidare_close_mouse.png</image>
+        <image x="0" y="0" width="450" height="650">Images\Samidare_close_mouse.png</image>
+      </motion>
+    </sequence>
+
+    <sequence name="Start">
+      <sequence name="Samidare.Neutralize" />
+      <sequence name="Samidare.Blink" />
+      <message>五月雨って言います<break/>護衛任務はお任せください</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <sequence name="Idle">
+      <sequence name="Samidare.Neutralize" />
+      <sequence name="Samidare.Blink" />
+    </sequence>
+    <!--中破・小破入渠-->
+    <sequence name="Stop">
+      <sequence name="Samidare.Stop">
+        <message>もうだめぇ……。ちょっとお休みしますね……。</message>
+        <sequence name="Samidare.SayNega" />
+      </sequence>
+      <sequence name="Samidare.Stop">
+        <message>ふぅ……。ちょっと休もうっと。</message>
+        <sequence name="Samidare.SayNega" />
+      </sequence>
+      <sequence name="Samidare.StopTalk">
+        <sequence name="Samidare.Stop" />
+      </sequence>
+      <sequence name="Samidare.StopTalk" />      
+    </sequence>
+    <sequence name="Tick" state="00:00:00">
+      <message>{M月d日}です</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+    
+    <sequence name="DoubleClick">
+      <!--分岐モーション定義-->
+      <sequence name="Samidare.DoubleClick">
+        <sequence name="Samidare.ArmSwing" />
+        <message>お任せくださいね！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <sequence name="Samidare.DoubleClick">
+        <sequence name="Samidare.ArmSwing" />
+        <message>提督、一生懸命がんばります！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <sequence name="Samidare.DoubleClick">
+        <sequence name="Samidare.Shake" />
+        <message>そんなに、気になります？</message>
+        <sequence name="Samidare.SayNega" />
+      </sequence>
+      <!--分岐モーション実行モーション-->
+      <sequence name="Samidare.Talk">
+        <sequence name="Samidare.DoubleClick" />
+      </sequence>
+      <!--モーション実行-->
+      <sequence name="Samidare.Talk" />
+    </sequence>
+    
+    <sequence name="Trend">
+      <sequence name="Samidare.Neutralize" />
+      <sequence name="Samidare.Bounce" />
+      <message>皆様が話題にしてるキーワードです！</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+    <sequence name="Alert">
+      <sequence name="Samidare.Neutralize" />
+      <sequence name="Samidare.Bounce" />
+      <message>お手紙が届きましたよ？</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+    <sequence name="Suggest">
+      <message>{.}オススメの文献みたいです！</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <sequence name="Activate">
+      <!--出撃ボイス-->
+      <sequence name="Samidare.Activate">
+        <message>いよいよ私たちの出番ですね！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <sequence name="Samidare.Activate">
+        <message>もうドジっ子なんて言わせませんから！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <!--帰投-->
+      <!--<sequence name="Samidare.Activate">
+        <message>作戦完了ですね。お疲れ様でした！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>-->
+      <!--補給-->
+      <sequence name="Samidare.Activate">
+        <sequence name="Samidare.Bounce" />
+        <message>はい！わたし、頑張っちゃいますから！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <!--遠征選択・アイテム発見-->
+      <sequence name="Samidare.Activate">
+        <message>お任せください！</message>
+        <sequence name="Samidare.Say" />
+      </sequence>
+      <!--人名、キャラクターが効かない.何故-->
+      <!--放置ボイス-->
+      <sequence name="Samidare.Activate">
+        <message>夜になると、時々思うんです。<break/>{人名|キャラクター|人を表す言葉}さんごめんなさいって</message>
+        <sequence name="Samidare.SayNega" />
+        <message>でもよーく思い出せなくって。<break/>もう少しで…</message>
+        <sequence name="Samidare.SayNega" />
+      </sequence>
+      <!--小破ボイス-->
+      <sequence name="Samidare.Activate">
+        <message>あれぇっ！？</message>
+        <sequence name="Samidare.SayNega" />
+      </sequence>
+      <!--ケッコンカッコカリ母港ボイス-->
+      <sequence name="Samidare.TryUnlock" state="^[1-2]$">
+        <sequence name="Samidare.Activate">
+          <sequence name="Samidare.Bounce" />
+          <message>さすがの提督も、あまり根を詰めるとドジっ子しちゃいますよ？</message>
+          <sequence name="Samidare.Say" />
+          <message>ほらっ！休んで休んで！お茶入れてあげますね？待ってて！</message>
+          <sequence name="Samidare.Say"/>
+        </sequence>
+        <sequence name="Samidare.Activate" />
+      </sequence>
+      <sequence name="Samidare.TryUnlock">
+        <sequence name="Samidare.Activate" />
+      </sequence>
+      <sequence name="Samidare.TryUnlock" />
+    </sequence>
+
+    <sequence name="Tick" state="(0[1-9]|1[0-9]|2[0-3]):00:00">
+      <message>{h時}です</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+    <sequence name="Tick" state="(0[0-9]|1[0-9]|2[0-3]):30:00">
+      <message>{h時}半です</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <sequence name="DrawClipboard">
+      <message>{.}ですね</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <sequence name="Learn">
+      <message>{.}とは、いったい何ですか？</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <sequence name="Search">
+      <message>{.}の資料をお持ちしました</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <!--5~9-->
+    <sequence name="Like" state="^[5-9]$">
+      <!--好感度作成-->
+      <sequence name="ケッコンカッコカリボイス">
+        <sequence name="Samidare.TryUnlock" state="1">
+          <sequence name="Samidare.NOP" />
+        </sequence>
+        <sequence name="Samidare.TryUnlock" state="1"/>
+      </sequence>
+      <sequence name="ケッコンカッコカリボイス" />
+    </sequence>
+
+    <!--新年ボイス-->
+    <sequence name="Tick" state="\d{2,4}-01-01[\w\s]00:00:00">
+      <message>明けまして、おめでとうございます！</message>
+      <sequence name="Samidare.Say" />
+      <message>提督、新年も五月雨にお任せください！…はいっ！！</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+    
+    <!--バレンタインボイス-->
+    <sequence name="Tick" state="\d{2,4}-02-14[\w\s]00:00:00">
+      <message>提督、ば、バレンタインです！このチョコケーキを、どうぞ…</message>
+      <sequence name="Samidare.Say" />
+      <message>って、あ、あれ!?　ああぁぁ～～!!</message>
+      <sequence name="Samidare.SayNega" />
+    </sequence>
+
+    <!--サービス開始日ボイス-->
+    <sequence name="Tick" state="\d{2,4}-04-23[\w\s]00:00:00">
+      <sequence name="Samidare.ArmSwing" />
+      <message>提督、今日は記念日ですね！<break/>素敵ですね！<break/>五月雨、いつもよりがんばっちゃいます！♪</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <!--梅雨ボイス-->
+    <sequence name="Tick" state="\d{2,4}-(05|06)-([0-2][1-9]|30|31)[\w\s]00:00:00">
+      <message>梅雨の季節、五月雨、結構好きなんです。<break/>なんかこう…雨って良くないですか？ね♪</message>
+      <sequence name="Samidare.Say" />
+    </sequence>
+
+    <!--夏ボイス...6~8月、01~29もしくは30もしくは31日なら発言-->
+    <sequence name="Tick" state="\d{2,4}-(06|07|08)-([0-2][1-9]|30|31)[\w\s]00:00:00">
+      <message>夏ですね、夏！てぇとくぅっ、一緒に海に行きましょ！</message>
+      <sequence name="Samidare.Say" />
+      <message>・・って、ああ。毎日行ってますね！</message>
+      <sequence name="Samidare.SayNega" />
+    </sequence>
+
+    <!--クリスマスボイス-->
+    <sequence name="Tick" state="\d{2,4}-12-25[\w\s]00:00:00">
+      <message>提督、メリークリスマース！五月雨、ケーキをお持ちしま…</message>
+      <sequence name="Samidare.Say" />
+      <message>う、うぁぁぁぁ～、うあああ、あ゛ぁ゛～～～～！</message>
+      <sequence name="Samidare.SayNega" />
+    </sequence>
+
+
+    <!--<sequence name="Tick" state="\d{2,4}-01-01[\w\s]00:00:00">
+      <message>明けましておめでと～！</message>
+      <sequence name="samidare.Say" />
+    </sequence>
+    <sequence name="Tick" state="\d{2,4}-02-14[\w\s]00:00:00">
+      <message>バレンタインデーだよ～</message>
+      <sequence name="samidare.Say" />
+    </sequence>
+    <sequence name="Tick" state="\d{2,4}-03-14[\w\s]00:00:00">
+      <message>ホワイトデーだよ～</message>
+      <sequence name="samidare.Say" />
+    </sequence>
+    <sequence name="Tick" state="\d{2,4}-07-07[\w\s]00:00:00">
+      <message>七夕だよ～</message>
+      <sequence name="samidare.Say" />
+    </sequence>
+    <sequence name="Tick" state="\d{2,4}-12-24[\w\s]00:00:00">
+      <message>クリスマス・イブだよ～</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Tick" state="\d{2,4}-12-25[\w\s]00:00:00">
+      <message>クリスマスよ</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Tick" state="07:00:00">
+      <message>おはよ～</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Tick" state="12:00:00">
+      <message>お昼だね</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Tick" state="15:00:00">
+      <message>おやつの時間だね♪</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="DoubleClick">
+      <sequence name="Husen.Shake" />
+      <message>どうしたの？</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="DrawClipboard">
+      <message>${.}、だって</message>
+      <sound>Sounds\select\select_001.wav</sound>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Learn">
+      <message>${.}って、何のこと？</message>
+      <sound>Sounds\alert\alert_002.wav</sound>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Alert">
+      <message>新しい情報だよ。</message>
+      <sound>Sounds\alert\alert_001.wav</sound>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Trend">
+      <message>今、話題になっているキーワードだよ</message>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Search">
+      <message>${.}の検索をしたよ。</message>
+      <sound>Sounds\alert\alert_002.wav</sound>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Suggest">
+      <message>${.}のおすすめがあるよ！</message>
+      <sound>Sounds\alert\alert_002.wav</sound>
+      <sequence name="Husen.Say" />
+    </sequence>
+    <sequence name="Activate">
+      <message>ググれ～！</message>
+      <sequence name="Angry" />
+    </sequence>
+    -->
+  </character>
+</script>
